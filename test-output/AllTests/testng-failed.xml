@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AllTests]">
+  <test thread-count="5" name="NotesTests(failed)">
+    <classes>
+      <class name="com.googlekeep.nala.tests.NotesTests">
+        <methods>
+          <include name="tearDown"/>
+          <include name="deleteNote"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.googlekeep.nala.tests.NotesTests -->
+    </classes>
+  </test> <!-- NotesTests(failed) -->
+  <test thread-count="5" name="ListsTests(failed)">
+    <classes>
+      <class name="com.googlekeep.nala.tests.ListTests">
+        <methods>
+          <include name="addNewList"/>
+          <include name="checkAnItemInTheList"/>
+          <include name="tearDown"/>
+          <include name="deleteList"/>
+          <include name="deleteItemsInTheList"/>
+          <include name="unCheckItemsInTheList"/>
+          <include name="setUp"/>
+          <include name="searchList"/>
+        </methods>
+      </class> <!-- com.googlekeep.nala.tests.ListTests -->
+    </classes>
+  </test> <!-- ListsTests(failed) -->
+</suite> <!-- Failed suite [AllTests] -->

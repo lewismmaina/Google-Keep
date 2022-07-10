@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="AllTests" duration-ms="348966" started-at="2022-07-10T20:42:56 EAT" finished-at="2022-07-10T20:48:45 EAT">
+    <groups>
+    </groups>
+    <test name="NotesTests" duration-ms="151047" started-at="2022-07-10T20:42:56 EAT" finished-at="2022-07-10T20:45:27 EAT">
+      <class name="com.googlekeep.nala.tests.NotesTests">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.googlekeep.nala.tests.NotesTests@8e24743]" name="setUp" is-config="true" duration-ms="74421" started-at="2022-07-10T20:42:56 EAT" finished-at="2022-07-10T20:44:10 EAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@43a09ce2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNote()[pri:1, instance:com.googlekeep.nala.tests.NotesTests@8e24743]" name="addNote" duration-ms="9114" started-at="2022-07-10T20:44:10 EAT" finished-at="2022-07-10T20:44:19 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNote -->
+        <test-method status="PASS" signature="searchNote()[pri:2, instance:com.googlekeep.nala.tests.NotesTests@8e24743]" name="searchNote" duration-ms="14056" started-at="2022-07-10T20:44:19 EAT" finished-at="2022-07-10T20:44:33 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchNote -->
+        <test-method status="PASS" signature="deleteNote()[pri:3, instance:com.googlekeep.nala.tests.NotesTests@8e24743]" name="deleteNote" duration-ms="13027" started-at="2022-07-10T20:44:33 EAT" finished-at="2022-07-10T20:44:46 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteNote -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.googlekeep.nala.tests.NotesTests@8e24743]" name="tearDown" is-config="true" duration-ms="40375" started-at="2022-07-10T20:44:46 EAT" finished-at="2022-07-10T20:45:27 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.googlekeep.nala.tests.NotesTests -->
+    </test> <!-- NotesTests -->
+    <test name="ListsTests" duration-ms="197854" started-at="2022-07-10T20:45:27 EAT" finished-at="2022-07-10T20:48:45 EAT">
+      <class name="com.googlekeep.nala.tests.ListTests">
+        <test-method status="PASS" signature="setUp(org.testng.ITestContext)[pri:0, instance:com.googlekeep.nala.tests.ListTests@4c762604]" name="setUp" is-config="true" duration-ms="84369" started-at="2022-07-10T20:45:27 EAT" finished-at="2022-07-10T20:46:51 EAT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3f183caa]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addNewList()[pri:1, instance:com.googlekeep.nala.tests.ListTests@4c762604]" name="addNewList" duration-ms="16495" started-at="2022-07-10T20:46:51 EAT" finished-at="2022-07-10T20:47:08 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addNewList -->
+        <test-method status="PASS" signature="searchList()[pri:2, instance:com.googlekeep.nala.tests.ListTests@4c762604]" name="searchList" duration-ms="10931" started-at="2022-07-10T20:47:08 EAT" finished-at="2022-07-10T20:47:19 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchList -->
+        <test-method status="PASS" signature="checkAnItemInTheList()[pri:3, instance:com.googlekeep.nala.tests.ListTests@4c762604]" name="checkAnItemInTheList" duration-ms="17010" started-at="2022-07-10T20:47:19 EAT" finished-at="2022-07-10T20:47:36 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAnItemInTheList -->
+        <test-method status="PASS" signature="deleteItemsInTheList()[pri:4, instance:com.googlekeep.nala.tests.ListTests@4c762604]" name="deleteItemsInTheList" duration-ms="11018" started-at="2022-07-10T20:47:36 EAT" finished-at="2022-07-10T20:47:47 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteItemsInTheList -->
+        <test-method status="PASS" signature="unCheckItemsInTheList()[pri:5, instance:com.googlekeep.nala.tests.ListTests@4c762604]" name="unCheckItemsInTheList" duration-ms="7537" started-at="2022-07-10T20:47:47 EAT" finished-at="2022-07-10T20:47:54 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- unCheckItemsInTheList -->
+        <test-method status="PASS" signature="deleteList()[pri:6, instance:com.googlekeep.nala.tests.ListTests@4c762604]" name="deleteList" duration-ms="10566" started-at="2022-07-10T20:47:54 EAT" finished-at="2022-07-10T20:48:05 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteList -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.googlekeep.nala.tests.ListTests@4c762604]" name="tearDown" is-config="true" duration-ms="39895" started-at="2022-07-10T20:48:05 EAT" finished-at="2022-07-10T20:48:45 EAT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.googlekeep.nala.tests.ListTests -->
+    </test> <!-- ListsTests -->
+  </suite> <!-- AllTests -->
+</testng-results>
